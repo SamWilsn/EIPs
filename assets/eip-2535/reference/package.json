@@ -1,0 +1,26 @@
+{
+  "name": "diamond-1",
+  "version": "1.4.0",
+  "description": "Gas-optimized diamond for adding/replacing/removing functions.",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write contracts/**/*.sol",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "prettier": {
+    "printWidth": 150
+  },
+  "dependencies": {
+    "truffle": "^5.1.58"
+  },
+  "devDependencies": {
+    "@codechecks/client": "^0.1.10",
+    "eth-gas-reporter": "^0.2.20",
+    "prettier": "^2.2.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.2",
+    "standard": "^14.3.4",
+    "typescript": "^4.1.3"
+  }
+}
